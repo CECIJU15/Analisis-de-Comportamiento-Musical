@@ -1,10 +1,13 @@
-🎟️ Análisis de Comportamiento Musical
+Análisis de Comportamiento Musical
+
 Este proyecto analiza el comportamiento de escucha musical de los usuarios de las ciudades **Springfield** y **Shelbyville**. A partir de datos de streaming, se exploran patrones de consumo, diversidad musical y actividad de los usuarios, con el fin de generar **recomendaciones estratégicas** para contenido y marketing.
 
 📌 Objetivo del proyecto
+
 Realizar un análisis exploratorio de los datos de reproducción musical de usuarios en diferentes ciudades, con el propósito de identificar patrones de comportamiento, tendencias de consumo y posibles segmentos de usuarios. 
 
 🗂️ Datos utilizados
+
 Se trabajó con la base de datos proporcionados por la empresa:
 
 `music_project_en.csv`: historial de reproducciones de canciones.
@@ -57,6 +60,17 @@ Se trabajó con la base de datos proporcionados por la empresa:
 ├── 📄 notebook.ipynb                # Análisis exploratorio y estadístico en Jupyter
 ├── 📄 requirements.txt              # Librerías necesarias para reproducir el análisis
 
+
+📦 analisis-musical
+├── 📄 README.md
+├── 📄 dataset.csv
+├── 📄 notebook.ipynb
+└── 📁 resultados/
+    ├── 📊 graficos/
+    │   └── horas_por_ciudad.png
+    └── 📄 resumen_estadistico.txt
+
+    
 👤 Autor
 Cecilia Juliana Ruiz Carhuamaca
 Estudiante de análisis de datos en TripleTen

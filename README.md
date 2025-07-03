@@ -1,25 +1,25 @@
-Análisis de Comportamiento Musical
+# Análisis de Comportamiento Musical
 
 Este proyecto analiza el comportamiento de escucha musical de los usuarios de las ciudades **Springfield** y **Shelbyville**. A partir de datos de streaming, se exploran patrones de consumo, diversidad musical y actividad de los usuarios, con el fin de generar **recomendaciones estratégicas** para contenido y marketing.
 
-📌 Objetivo del proyecto
+## 📌 Objetivo del proyecto
 
 Realizar un análisis exploratorio de los datos de reproducción musical de usuarios en diferentes ciudades, con el propósito de identificar patrones de comportamiento, tendencias de consumo y posibles segmentos de usuarios. 
 
-🗂️ Datos utilizados
+## 🗂️ Datos utilizados
 
 Se trabajó con la base de datos proporcionados por la empresa:
 
 `music_project_en.csv`: historial de reproducciones de canciones.
 
-🛠️ Herramientas y tecnologías
+## 🛠️ Herramientas y tecnologías
 - Python  
 - Pandas, NumPy  
 - Matplotlib, Seaborn  
 - Jupyter Notebook  
 - SciPy (para pruebas estadísticas)
 
-📈 Análisis realizados
+## 📈 Análisis realizados
 
 - Análisis por Usuario: Diagrama de Distribución de actividad por usuario de cada ciudad.
 - Análisis por Género Musical: Grafico de barras de géneros más escuchados en cada ciudad.
@@ -28,8 +28,7 @@ Se trabajó con la base de datos proporcionados por la empresa:
 - Prueba estadística t-test (ttest_ind) para comparar si los usuarios activos entre ciudades.
 - La prueba chi-cuadrado (chi2_contingency) para determinar si la distribución de reproducciones por día es igual entre ciudades.
 
-
-✅ Conclusiones
+## ✅ Conclusiones
 
 🎧 1. Volumen de consumo marcadamente distinto
 - Springfield muestra un volumen de reproducciones significativamente mayor que Shelbyville (más del doble).
@@ -52,25 +51,16 @@ Se trabajó con la base de datos proporcionados por la empresa:
 
 🧠 6. Los resultados del test de chi-cuadrado muestran diferencias significativas en la distribución de reproducciones musicales por día entre Springfield y Shelbyville. Esto confirma que cada ciudad presenta patrones distintos de consumo semanal, lo cual justifica enfoques diferenciados en estrategias de contenido y marketing. 
 
-📁 Estructura del proyecto
+## 📁 Estructura del proyecto
 
+```plaintext
 📦 analisis-musical
 ├── 📄 README.md                     # Este archivo
 ├── 📄 music_project_en.csv          # Datos de reproducciones musicales por usuario
 ├── 📄 notebook.ipynb                # Análisis exploratorio y estadístico en Jupyter
 ├── 📄 requirements.txt              # Librerías necesarias para reproducir el análisis
 
-
-📦 analisis-musical
-├── 📄 README.md
-├── 📄 dataset.csv
-├── 📄 notebook.ipynb
-└── 📁 resultados/
-    ├── 📊 graficos/
-    │   └── horas_por_ciudad.png
-    └── 📄 resumen_estadistico.txt
-
     
-👤 Autor
+### 👤 Autor
 Cecilia Juliana Ruiz Carhuamaca
 Estudiante de análisis de datos en TripleTen
